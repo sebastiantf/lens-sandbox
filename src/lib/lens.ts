@@ -71,7 +71,7 @@ export class Lens {
     const totalFollowers = firstPage.pageInfo.totalCount ?? 0;
     logger.info('totalFollowers: ', totalFollowers);
 
-    const limit = 25;
+    const limit = 50;
     const noOfPages = Math.ceil(totalFollowers / limit);
     logger.info('noOfPages: ', noOfPages);
 
