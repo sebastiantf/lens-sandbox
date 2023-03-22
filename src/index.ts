@@ -4,7 +4,7 @@ import { logger } from './common/logger';
 import { writeToCSV } from './lib/csv';
 
 (async function () {
-  const handle = 'mcsquared.lens';
+  const handle = 'ufoclub.lens';
   const lens = new Lens(polygon);
   const allFollowerAddresses = await lens.getAllFollowersByHandleConcurrently(
     handle
