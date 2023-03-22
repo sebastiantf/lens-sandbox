@@ -4,7 +4,7 @@ import { logger } from './common/logger';
 
 (async function () {
   const lens = new Lens(polygon);
-  const allFollowerAddresses = await lens.getAllFollowersByHandle(
+  const allFollowerAddresses = await lens.getAllFollowersByHandleConcurrently(
     'mcsquared.lens'
   );
 
