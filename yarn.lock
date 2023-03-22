@@ -2316,6 +2316,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"csv-writer@npm:^1.6.0":
+  version: 1.6.0
+  resolution: "csv-writer@npm:1.6.0"
+  checksum: 2e62cb46f00b674f0710eb90586000601f3a467aabe529464dcb402d453a1322a716d7522ef3282dd6551f1059305c7dd3db49def1201caaf340597dcf7b4c7e
+  languageName: node
+  linkType: hard
+
 "cz-conventional-changelog@npm:3.3.0, cz-conventional-changelog@npm:^3.3.0":
   version: 3.3.0
   resolution: "cz-conventional-changelog@npm:3.3.0"
@@ -4347,6 +4354,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": ^5.36.2
     "@typescript-eslint/parser": ^5.36.2
     commitizen: ^4.2.5
+    csv-writer: ^1.6.0
     cz-conventional-changelog: ^3.3.0
     eslint: ^8.23.0
     eslint-config-prettier: ^8.5.0
